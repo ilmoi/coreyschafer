@@ -1,0 +1,8 @@
+INFO:root:Ran with arg (3, 1) and kwargs {}
+INFO:root:Ran with arg (3, 1) and kwargs {}
+INFO:root:Our function timer_wrapper ran with arg (3, 1) and kwargs {}
+INFO:root:Our function timer_wrapper ran with arg (3, 1) and kwargs {}
+INFO:root:Our function timer_wrapper ran with arg (3, 1) and kwargs {}
+INFO:root:Our function timer_wrapper ran with arg (3, 1) and kwargs {}
+INFO:root:Our function timer_wrapper ran with arg (3, 1) and kwargs {}
+INFO:root:Our function timer_wrapper ran with arg (3, 1) and kwargs {}

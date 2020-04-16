@@ -1,0 +1,43 @@
+DEBUG:__main__:adding 10 and 5555 to get 5565
+DEBUG:__main__:adding 10 and 5555 to get 5565
+DEBUG:__main__:dividing 10 by 5555 to get None
+DEBUG:__main__:dividing 10 by 5555 to get 0.0018001800180018
+DEBUG:__main__:dividing 10 by 5555 to get 0.0018001800180018
+DEBUG:__main__:dividing 10 by 5555 to get 0.0018001800180018
+DEBUG:__main__:dividing 10 by 5555 to get 0.0018001800180018
+DEBUG:__main__:dividing 10 by 5555 to get 0.0018001800180018
+NO MORE
+ERROR:__main__:Tried to divide by zero
+ERROR:__main__:Tried to divide by zero
+ERROR:__main__:Tried to divide by zero
+ERROR:__main__:Tried to divide by zero
+ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/ilja/Dropbox/corey/logging_nums.py", line 7, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/ilja/Dropbox/corey/logging_nums.py", line 7, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/ilja/Dropbox/corey/logging_nums.py", line 7, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/ilja/Dropbox/corey/logging_nums.py", line 7, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/ilja/Dropbox/corey/logging_nums.py", line 7, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/ilja/Dropbox/corey/logging_nums.py", line 7, in divide
+    result = x/y
+ZeroDivisionError: division by zero
