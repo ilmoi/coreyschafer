@@ -1,10 +1,18 @@
-# do not delete
+# imports
 
 # list
+from functools import partial
+from pathlib import Path
+from functools import wraps
+import math
+import traceback
+import re
+import itertools
 from contextlib import contextmanager
 import os
 fruits = ['apples', 'bananas', 'oranges', 'potatoes']
 
+os.chdir('/Users/ilja/Dropbox/ATBS')
 
 # dict
 doggo = {
@@ -24,42 +32,35 @@ class Person(object):
         self.last = last
         self.age = age
 
-    def __lt__(self, other):
-        if self.age <= other.age:
-            return True
-        else:
-            return False
-
     def implicit(self):
-        print(f'this is an implicit call by {self.first}')
+        print('i am implicit!')
 
     def overriden(self):
-        print(f'this is an overridden call by {self.first}')
+        print('not yet over-riden!')
 
     def altered(self):
-        print(f'this is an alterd call by {self.first}')
+        print('to be altered!')
 
 
 ilja = Person('ilja', 'moi', 27)
-vadim = Person('vadim', 'mole', 30)
 
 ##############################################################################
 
-"""
-docstring
-from __future__ import
-__all__, __version__, __author__ = []
-import os
+# """
+# linear search - n
+# binary search - nlogn or logn depending on whether L[:] is used
+# bogus sort
+# selection sort / bubble sort = n**2
+# merge sort - nlogn
+# """
+#
+# ##############################################################################
 
 
-"""
+def multiply(x, y, z):
+    return x*y+z
 
-##############################################################################
 
-a = hex(ord("б"))
-print(a)
-
-print("б" == '\u0431' == '\U00000431')
-
-b = "б".encode('utf-8')
-print(b)
+double = partial(multiply, 2)
+triple = partial(double, 5)
+print(triple(1))

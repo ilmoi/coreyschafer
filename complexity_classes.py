@@ -16,7 +16,7 @@ def linear(L):
 # 3 LOGARITHMIC = reduces size of input data at each step
 # characteristic = need to be diving /2 somewhere
 # eg with binary search we're cutting the input in half every time
-def binary(value, L):
+def binary_search(value, L):
     left = 0
     right = len(L)
     middle = (right - left)//2

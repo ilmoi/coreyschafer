@@ -1,0 +1,4 @@
+<div class="view photo-list-photo-view requiredToShowOnServer awake" data-view-signature="photo-list-photo-view__UA_1__adConfig_1__engagementModelName_photo-lite-models__excludePeople_true__id_18503441519__interactionViewName_photo-list-photo-interaction-view__isMobile_false__isOwner_false__layoutItem_1__model_1__modelParams_1__openAdvanced_false__parentContainer_1__parentSignature_photolist-3uh__requiredToShowOnClient_true__requiredToShowOnServer_true__rowHeightMod_1__searchSimilar_false__searchSimilarWithTerm_false__searchTerm_doge__searchType_1__showAdvanced_true__showInteractionBarPlaceholder_false__showSort_true__showTools_true__sortMenuItems_1__unifiedSubviewParams_1__viewType_jst" style="transform: translate(0px, 0px); -webkit-transform: translate(0px, 0px); -ms-transform: translate(0px, 0px); width: 174px; height: 174px; background-image: url(//live.staticflickr.com/491/18503441519_3d70425c3c_m.jpg)">
+ <div class="interaction-view">
+ </div>
+</div>
