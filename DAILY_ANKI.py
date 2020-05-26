@@ -1,14 +1,7 @@
-# imports
-
-# list
-from functools import partial
-from pathlib import Path
-from functools import wraps
-import math
-import traceback
-import re
+from collections import namedtuple
 import itertools
-from contextlib import contextmanager
+import random
+import json
 import os
 fruits = ['apples', 'bananas', 'oranges', 'potatoes']
 
@@ -41,26 +34,17 @@ class Person(object):
     def altered(self):
         print('to be altered!')
 
+    def __repr__(self):
+        return f'{self.__class__.__name__}({self.first}, {self.last}, {self.age})'
+
 
 ilja = Person('ilja', 'moi', 27)
 
 ##############################################################################
 
-# """
-# linear search - n
-# binary search - nlogn or logn depending on whether L[:] is used
-# bogus sort
-# selection sort / bubble sort = n**2
-# merge sort - nlogn
-# """
+"""
+kubectl label pod POD_NAME key=value
+kubectl get pod -l key=value
+"""
 #
 # ##############################################################################
-
-
-def multiply(x, y, z):
-    return x*y+z
-
-
-double = partial(multiply, 2)
-triple = partial(double, 5)
-print(triple(1))

@@ -2,9 +2,20 @@
 
 cd "/Users/ilja/Dropbox/atbs"
 
-a=1020304050
-r="^[0-9]{8,}$"
+a=(a b c d)
+a[5]=f
+a+=(e f g)
+echo ${a[@]}
+echo ${a[2]}
 
-if [[ $a =~ $r ]]; then
-    echo yassss
-fi
+for i in ${a[@]}; do
+    echo $i
+done
+
+echo -----
+
+echo ${#a[@]}
+unset a[2]
+echo ${a[@]}
+unset $a
+echo ${a[@]}
